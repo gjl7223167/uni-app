@@ -11,8 +11,26 @@
 			"style": {
 				"navigationBarTitleText": "列表"
 			}
-		}
-	],
+		},
+		{
+            "path" : "pages/itemViewList/itemViewList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/imgDetail/imgDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"tabBar": {
 		"color": "#3f3f3f",
 		"selectedColor": "#54d15f",
@@ -26,6 +44,11 @@
 				"text": "列表",
 				"iconPath": "static/logo.png",
 				"pagePath": "pages/uniList/uniList"
+			},
+			{
+				"text": "组件",
+				"iconPath": "static/logo.png",
+				"pagePath": "pages/itemViewList/itemViewList"
 			}
 		]
 	},
