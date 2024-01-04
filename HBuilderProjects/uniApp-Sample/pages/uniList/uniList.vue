@@ -30,7 +30,7 @@
 					duration: 850
 				})
 				uni.navigateTo({
-					url:"/pages/imgDetail/imgDetail?path=../../static/monv-3.jpeg"
+					// url:"/pages/imgDetail/imgDetail?path=../../static/monv-3.jpeg"
 				})
 			}
 		}
