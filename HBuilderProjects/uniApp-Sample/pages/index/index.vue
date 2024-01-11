@@ -10,18 +10,18 @@
 			<view class="row">
 				<radio-group name="selType" class="v-radio">
 					<label name="selType" class="v-row">
-						<radio value="选项一"></radio><text>选项一</text>
+						<radio value="选项一id"></radio><text>选项一</text>
 					</label>
 					<label name="selType" class="v-row">
-						<radio value="选项二"></radio><text>选项一</text>
+						<radio value="选项二id"></radio><text>选项一</text>
 					</label>
 					<label name="selType" class="v-row">
-						<radio checked value="其他"></radio><text>其他选项</text>
+						<radio checked value="其他id"></radio><text>其他选项</text>
 					</label>
 				</radio-group>
 			</view>
 			<view>
-				<picker :range="options" mode="selector" name="school" :value="selectValue" @change="pickChange">
+				<picker :range="options" mode="multiSelector" name="school" :value="selectValue" @change="pickChange">
 					<label class="barder_row">点击请选择学历:{{options[selectValue]}}</label>
 				</picker>
 			</view>
